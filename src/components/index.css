@@ -225,3 +225,100 @@ form button[type='button'] {
 /* landingpage */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estructura base */
+.login-main {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Lado izquierdo (imagen decorativa) */
+.login-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.login-left img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Lado derecho (formulario) */
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-right-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.login-logo img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.login-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.pass-input-div {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.pass-input-div input {
+  flex: 1;
+}
+
+.pass-input-div svg {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Responsivo: ocultar imagen en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .login-main {
+    flex-direction: column;
+  }
+
+  .login-left {
+    display: none; /* Oculta el contenedor izquierdo */
+  }
+
+  .login-right {
+    width: 100%;
+    flex: none;
+    padding: 20px;
+  }
+
+  .login-right-container {
+    max-width: 100%;
+  }
+}
