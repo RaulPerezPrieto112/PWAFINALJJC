@@ -173,7 +173,7 @@ const LandingPage = () => {
                 ¿Listo para jugar? Descarga Jumping Jack Cheese y empieza la aventura.
               </p>
               {userEmail ? (
-                <a href="https://mega.nz/file/T3oxnCyA#i2r5bVM5lpt5nkpnkns5nAAg6dcgy4Go5Gb2SKXvchw" className="download-button">
+                <a href="https://mega.nz/file/fjpi0bwR#7GY9kd7sCnFQbVlt8Q7wv8eONzUHlDAP4y2pq8ieoic" className="download-button">
                   Download Game (.rar)
                 </a>
               ) : (
