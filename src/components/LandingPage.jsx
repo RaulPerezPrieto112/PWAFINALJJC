@@ -125,7 +125,10 @@ const LandingPage = () => {
             <div className="text-content">
               <h1 className="landing-title">Conócenos</h1>
               <p className="landing-description">
-                Cheesy Lab es un estudio independiente apasionado por los videojuegos en pixel art.
+              Cheesy Lab es un estudio independiente apasionado por los videojuegos en pixel art. 
+              Creamos experiencias únicas que combinan la estética retro con mecánicas modernas, ofreciendo juegos divertidos y llenos de personalidad. 
+              Nos inspira la nostalgia de los clásicos, pero apostamos por ideas frescas que conecten con todo tipo de jugadores.
+              Jumping Jack Cheese fue desarrollado con dedicación, cuidando el arte, la jugabilidad y la música para brindar mundos vibrantes y memorables.
               </p>
             </div>
           </div>
@@ -140,7 +143,9 @@ const LandingPage = () => {
             <div className="text-content">
               <h1 className="landing-title">Objetivo</h1>
               <p className="landing-description">
-                En Jumping Jack Cheese, nuestra misión es ofrecer una experiencia dinámica y accesible...
+              En Jumping Jack Cheese, nuestra misión es ofrecer una experiencia dinámica y accesible para todos. 
+              Está pensado para quienes no tienen mucho tiempo y buscan una aventura sencilla pero desafiante, ideal para partidas rápidas. 
+              Al mismo tiempo, ofrece la profundidad y precisión que disfrutan los jugadores que aman los speedruns, permitiéndoles perfeccionar sus habilidades y lograr tiempos récord.
               </p>
             </div>
           </div>
@@ -152,7 +157,11 @@ const LandingPage = () => {
             <div className="text-content">
               <h1 className="landing-title">Temática</h1>
               <p className="landing-description">
-                Jumping Jack Cheese es un juego de plataformas en 2D donde controlas a un ratón...
+                Jumping Jack Cheese es un juego de plataformas en 2D donde controlas a un ratón que debe recolectar tres quesos y llevarlos a su madriguera
+                para ser entregada a cada uno de sus ratones antes de que el tiempo se agote. 
+                A medida que avanzas, la dificultad aumenta progresivamente, con más enemigos que harán cada recorrido más desafiante. 
+                Si no logras entregar el alimento a tiempo, una de sus crías pasará hambre y el nivel se reiniciará. 
+                La rapidez y la precisión son clave para completar cada misión antes de que sea demasiado tarde.              
               </p>
             </div>
             <div className="image-content">
